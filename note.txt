@@ -1,0 +1,75 @@
+Mô hình 3 khối 
+
+Bài 1: Tính tiền lương
+
+-----Đầu vào----- 
+    + Lương một ngày làm
+    + Số ngày làm
+-----Các Bước Xử Lý-----
+    + Tạo sự kiện onclick vào thẻ kết quả
+    + Tìm tới thẻ chứa giá trị của lương một ngày làm và số ngày làm và lấy giá trị
+    + Xét điều kiện giá trị của 2 thẻ input và thực hiện phép tính 
+    + Phép tính : Tiền Nhân Viên = Lương Một Ngày Làm * Số Ngày Làm
+    + In kết quả ra một thẻ bằng hàm document.getElementById('...').innerHTML
+-----Đầu ra-----
+    + Tiền lương nhân viên nhận được
+
+Bài 2: Tính giá trị trung bình
+
+-----Đầu vào----- 
+    + Giá trị của 5 số do người dùng nhập
+-----Các Bước Xử Lý-----
+    + Tạo sự kiện onclick vào thẻ kết quả
+    + Tìm tới thẻ chứa giá trị của 5 thẻ input chứa 5 số do người dùng nhập và lấy giá trị
+    + Xét điều kiện giá trị và thực hiện phép tính
+    + Phép tính : (Number1 + Number2 + Number3 + Number4 + Number5) / 5
+    + In kết quả ra một thẻ bằng hàm document.getElementById('...').innerHTML
+-----Đầu ra-----
+    + Giá trị trung bình của 5 số đó
+
+Bài 3: Quy đổi tiền
+
+-----Đầu vào----- 
+    + Số tiền cần quy đổi (Đơn vị USD)
+-----Các Bước Xử Lý-----
+    + Tạo sự kiện onclick vào thẻ kết quả
+    + Tìm tới thẻ chứa giá trị của số tiền do người dùng nhập và lấy giá trị
+    + Xét điều kiện giá trị số tiền người dùng nhập và thực hiện phép tính
+    + Phép tính : Tiền VNĐ = Tiền USD * 23500
+    + In kết quả ra một thẻ bằng hàm document.getElementById('...').innerHTML
+-----Đầu ra-----
+    + Số tiền sau khi quy đổi (Đơn vị VNĐ)
+
+Bài 4: Tính diện tích, chu vi hình chữ nhật
+
+-----Đầu vào----- 
+    + Chiều Dài
+    + Chiều Rộng
+-----Các Bước Xử Lý-----
+    + Tạo sự kiện onclick vào thẻ kết quả
+    + Tìm tới thẻ chứa giá trị của chiều dài và chiều rộng rồi lấy giá trị
+    + Xét điều kiện giá trị của 2 thẻ input và thực hiện phép tính 
+    + Phép tính : 
+        * Chu vi = (Chiều Dài + Chiều Rộng) * 2
+        * Diện tích = Chiều Dài * Chiều Rộng
+    + In kết quả ra một thẻ bằng hàm document.getElementById('...').innerHTML
+-----Đầu ra-----
+    + Chu vi HCN
+    + Diện Tích HCN
+
+Bài 5: Tính tổng 2 ký số
+
+-----Đầu vào----- 
+    + Một số có hai chữ số
+-----Các Bước Xử Lý-----
+    + Tạo sự kiện onclick vào thẻ kết quả
+    + Tìm tới thẻ chứa giá trị của thẻ input và lấy giá trị
+    + Xét điều kiện giá trị của số (phải là số có hai chữ số) 
+    + Phép tính : 
+        * Lấy 2 số trong trong hai chữ số đó : 
+            { Số Đầu = Math.floor(Số Hai Chữ Số / 10 )
+              Số Sau = Số Hai Chữ Số % 10 }
+        * Tổng 2 ký số = Số Đầu  + Số Sau
+    + In kết quả ra một thẻ bằng hàm document.getElementById('...').innerHTML
+-----Đầu ra-----
+    + Tổng 2 ký số
